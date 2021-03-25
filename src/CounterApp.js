@@ -3,21 +3,18 @@ import PropTypes from 'prop-types';
 
 function CounterApp({value}) {
     
-    const [counter, setCounter] = useState(0); // []
+    const [counter, setCounter] = useState(0);
 
     const handleAdd = () => {
         setCounter(counter + 1);
-        // setCounter( (counter)=> counter + 1 )
     }
 
     const handleReset = () => {
         setCounter(value);
-        // setCounter( (counter)=> counter + 1 )
     }
     
     const handleSubstract = () => {
         setCounter(counter - 1);
-        // setCounter( (counter)=> counter + 1 )
     }
 
     return (
@@ -37,4 +34,3 @@ CounterApp.propTypes = {
 }
 
 export default CounterApp;
-
