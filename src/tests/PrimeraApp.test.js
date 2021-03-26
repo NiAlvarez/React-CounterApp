@@ -35,7 +35,5 @@ describe('Pruebas en <PrimeraApp />', () => {
         const textoParrafo = wrapper.find('p').text();
 
         expect(textoParrafo).toBe(subtitulo);
-    
     })  
-
 })
